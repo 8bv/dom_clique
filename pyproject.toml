@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+
+[project]
+name = "dom_clique"
+version = "0.0.1"
+authors = [
+  { name="Golvokevich Boris", email="golovkevich@outlook.com" },
+]
+description = "Such bot, wow"
+requires-python = ">=3.7"
+dependencies = [
+  "aiogram~=2.25"
+]
